@@ -1,0 +1,17 @@
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40;
+        border-radius: 10;
+    }
+
+    .languageItem {
+        padding: 20 50;
+        background-color: black;
+        color: white;
+        border-radius: 20;
+        font-size: 16;
+        font-weight: bold;
+    }

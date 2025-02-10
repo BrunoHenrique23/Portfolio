@@ -21,7 +21,7 @@
   margin-top: 8px;
   font-size: 14px;
   font-weight: bold;
-  color: #ffffff;
+  color: #060606;
 }
 
 .projectList {
@@ -32,8 +32,10 @@
 }
 
 .techIcons {
-  width: 20vh;
-  height: 20vh;
+  width:100vh;
+  height: 40vh;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .left {

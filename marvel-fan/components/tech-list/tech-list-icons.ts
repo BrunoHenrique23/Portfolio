@@ -2,7 +2,7 @@ import swift from "../../public/images/swift.png"
 import java from "../../public/images/java.png"
 import javascript from "../../public/images/javascript.png"
 import nextjs from "../../public/images/nextjs.png"
-import mobile from "../../public/images/phone.png"
+import mobile from "../../public/images/iphone.png"
 import health from "../../public/images/saude.png"
 import food from "../../public/images/food.png"
 import { title } from "process"
@@ -38,14 +38,14 @@ export const projects = [
         title: "Participação como analista de sistemas, e desenvolvedor back-end do aplicativo, realizando features como busca de concessionárias mais próximas.",
         img: mobile
     },
-    {
-        id: 2,
-        title: "Telemedicina",
-        img: health
-    },
-    {
-        id: 3,
-        title: "Swift UI",
-        img: food
-    }
+    // {
+    //     id: 2,
+    //     title: "Telemedicina",
+    //     img: health
+    // },
+    // {
+    //     id: 3,
+    //     title: "Swift UI",
+    //     img: food
+    // }
 ]

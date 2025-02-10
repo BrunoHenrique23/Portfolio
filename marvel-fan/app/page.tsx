@@ -1,27 +1,30 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import profilePic from "../public/images/foto.jpeg";
+import image from "../public/images/mac.jpg";
 import TechList from "@/components/tech-list/tech-list";
+import avatar from "../public/images/avatar.jpeg"
 import Head from "next/head";
 import ProjectList from "@/components/project-list/project-list";
 
 export default function Home() {
   return (
     <>
+    <div>
+    </div>
     <div className={styles.container1}>
-      <div className={styles.title}><h1>Bem vindo (a) </h1></div>
-      <div className={styles.picture}>
-        <Image
-          src={profilePic}
-          alt={"Picture"}
-          width={500}
-          height={500}
-          className={styles.imagePic} />
+          <Image
+           src={image} 
+           alt={""}
+           className={styles.imagePic} />
         <div className={styles.apresentation}>
-          <h2>Bruno Henrique</h2>
-          <p>Analista de Sistemas - Pleno</p>
+        <Image
+           src={avatar} 
+           alt={""}
+           className={styles.avatarPic} />
+          <h2 className={styles.name}>Bruno Henrique</h2>
+          <p className={styles.subTitle}>Analista de Sistemas - Pleno</p>
         </div>
-      </div>
+      
       </div>
 
       <div className={styles.container2}>

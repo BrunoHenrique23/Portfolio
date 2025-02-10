@@ -6,15 +6,14 @@
     box-sizing: border-box; /* Garante que padding não afete o tamanho total */
     overflow-y: auto;
     overflow-x: auto;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 body {
-    background: linear-gradient(-45deg, #04a19c, #000000, #23a6d5, #23d5ab); /* Gradiente de laranja para rosa */
+    /* background: linear-gradient(#fcfcfc, #bf0505);  */
     font-family: "Raleway", serif;
-    background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
-    min-height: 100vh; /* Garante que o gradiente cubra toda a altura da tela */
+	/* animation: gradient 7s ease infinite; */
+    min-height: 100vh;
 }
 
 @keyframes gradient {

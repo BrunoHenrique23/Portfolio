@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import profilePic from "../public/images/foto.jpeg";
 import TechList from "@/components/tech-list/tech-list";
 import Head from "next/head";
+import ProjectList from "@/components/project-list/project-list";
 
 export default function Home() {
   return (
@@ -30,7 +31,10 @@ export default function Home() {
         <TechList />
       </div>
       <div className={styles.container3}>
+        <div className={styles.titleProjects}>
         <h1>Projetos</h1>
+        </div>
+        <ProjectList/>
       </div>
       </>
   );

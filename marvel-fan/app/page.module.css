@@ -41,7 +41,7 @@
    justify-content: center;
 }
 
-.container3{
+/* .container3{
     display: flex;
     justify-content: center;
     padding: 10;
@@ -51,6 +51,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
+} */
+
+.container3{
+    height: 100vh;
+}
+.titleProjects{
+    display: flex;
+    justify-content: center;
+    padding: 10;
 }
 
 .techList{

@@ -5,6 +5,7 @@ import TechList from "@/components/tech-list/tech-list";
 import avatar from "../public/images/avatar.jpeg"
 import Head from "next/head";
 import ProjectList from "@/components/project-list/project-list";
+import ContactList from "@/components/footer/contact-list";
 
 export default function Home() {
   return (
@@ -12,10 +13,12 @@ export default function Home() {
     <div>
     </div>
     <div className={styles.container1}>
-          <Image
+      <div className={styles.image1}>
+      <Image
            src={image} 
            alt={""}
            className={styles.imagePic} />
+      </div>
         <div className={styles.apresentation}>
         <Image
            src={avatar} 
@@ -33,12 +36,14 @@ export default function Home() {
       <div className={styles.techList}>
         <TechList />
       </div>
+     <footer className={styles.footer}>
       <div className={styles.container3}>
-        <div className={styles.titleProjects}>
-        <h1>Projetos</h1>
+        <div className={styles.contactTitle}>
+        <h1>Contato</h1>
         </div>
-        <ProjectList/>
+        <ContactList/>
       </div>
+     </footer>
       </>
   );
 }

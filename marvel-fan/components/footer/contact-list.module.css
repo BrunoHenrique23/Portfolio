@@ -1,0 +1,26 @@
+
+.container {
+   display: flex;
+   justify-content: space-around;
+
+}
+  
+  .iconWrapper {
+   display: flex;
+   align-items: center;
+  }
+
+  .iconTitle{
+    display: flex;
+    align-items: center;
+    padding: 5vh;
+  }
+  
+  
+  .techIcons {
+    width: 10vh;
+    height: 10vh;
+    cursor: pointer;
+  }
+  
+  

@@ -18,10 +18,15 @@
     color: rgb(0, 0, 0);
     font-size: 70px;
 }
+.image1{
+    overflow: hidden;
+    border-bottom-right-radius: 30px;
 
+}
 .imagePic{
     width: 700px;
     height: 500px;
+    border-bottom-right-radius: 30px;
 }
 
 .avatarPic{
@@ -51,7 +56,6 @@
 }
 
 
-
 .imagePic{
     min-height: 100vh;
     min-width: 50vh;
@@ -75,8 +79,12 @@
 } */
 
 .container3{
-    height: 100vh;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
 .titleProjects{
     display: flex;
     justify-content: center;
@@ -87,4 +95,10 @@
     display: flex;
     justify-content: center;
 }
+
+.contactTitle{
+    display: flex;
+    justify-content: center;
+
+  }
 

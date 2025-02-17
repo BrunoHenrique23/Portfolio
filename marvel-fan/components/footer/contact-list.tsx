@@ -23,7 +23,6 @@ export default function ContactList (){
     </div>
   ))}
 </div>
-
         </>
     )
 }

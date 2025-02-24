@@ -57,11 +57,12 @@ export const contact = [
         id: 1,
         title: "Linkedin",
         img: linkedin,
-        link: ""
+        link: "https://www.linkedin.com/in/brunosilva20/"
     },
     {
         id:2,
         title: "Gmail",
-        img: gmail
+        img: gmail,
+        link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
     }
 ]

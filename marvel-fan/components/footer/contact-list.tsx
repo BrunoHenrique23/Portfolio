@@ -18,7 +18,7 @@ export default function ContactList (){
     <div className={styles.container}>
   {contact.map((item, index) => (
     <div key={item.id} className={styles.iconWrapper}>
-      <Image src={item.img} alt={item.title} className={styles.techIcons} onClick={() => router.push("https://www.linkedin.com/in/brunosilva20/")}/>
+      <Image src={item.img} alt={item.title} className={styles.techIcons} onClick={() => router.push(item.link)}/>
       <p className={styles.iconTitle}>{item.title}</p>
     </div>
   ))}

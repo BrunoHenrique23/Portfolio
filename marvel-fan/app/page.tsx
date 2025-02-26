@@ -7,8 +7,13 @@ import Head from "next/head";
 import ProjectList from "@/components/project-list/project-list";
 import ContactList from "@/components/footer/contact-list";
 import fiap from "../public/images/fiap.jpg";
+import React from "react";
 
 export default function Home() {
+
+  // const [form, setForm] = React.useState(false)
+
+
   return (
     <>
       <div>
@@ -36,18 +41,6 @@ export default function Home() {
       </div>
       <div className={styles.techList}>
         <TechList />
-      </div>
-      <div className={styles.containerApre}>
-        <div className={styles.apre}>
-          <h1>Apresentação</h1>
-        </div>
-        <div className={styles.desc}>
-          <Image
-            src={fiap}
-            alt={""}
-            className={styles.avatarPic} />
-          <p>Graduado em sistemas da informação em 2024 pela universidade FIAP, com foco em programação e gestão ágeis de projetos.</p>
-        </div>
       </div>
 
       <footer className={styles.footer}>

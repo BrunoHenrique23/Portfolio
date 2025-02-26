@@ -8,6 +8,9 @@ import food from "../../public/images/food.png"
 import linkedin from "../../public/images/linkedin.png"
 import gmail from "../../public/images/gmail.png"
 import { title } from "process"
+import fiap from "../../public/images/fiap.jpg";
+import atos from "../../public/images/atos-logo-0.png"
+
 
 
 export const icons =[
@@ -64,5 +67,20 @@ export const contact = [
         title: "Gmail",
         img: gmail,
         link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+    }
+]
+
+export const graduation = [
+    {
+        id: 1,
+        title: "Graduado em sistemas da informação em 2024 pela universidade FIAP, com foco em programação e gestão ágeis de projetos.",
+        img: fiap,
+        link: "https://www.fiap.com.br/graduacao/bacharelado/sistemas-de-informacao/"
+    },
+    {
+        id: 2,
+        title: "Atualmente trabalhando na empresa Atos Brasil, como desenvolvedor a 3 anos.",
+        img: atos,
+        link: "https://atos.net/en/"
     }
 ]

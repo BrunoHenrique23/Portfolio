@@ -8,6 +8,7 @@ import ProjectList from "@/components/project-list/project-list";
 import ContactList from "@/components/footer/contact-list";
 import fiap from "../public/images/fiap.jpg";
 import React from "react";
+import Skills from "@/components/skills/skills";
 
 export default function Home() {
 
@@ -41,6 +42,10 @@ export default function Home() {
       </div>
       <div className={styles.techList}>
         <TechList />
+      </div>
+
+      <div className={styles.container4}>
+        <Skills/>
       </div>
 
       <footer className={styles.footer}>

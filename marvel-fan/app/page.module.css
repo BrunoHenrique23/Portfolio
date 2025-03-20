@@ -11,7 +11,7 @@
 .title{
     display: flex;
     flex-direction: column;
-    width: 120vh;
+    width: 80vh;
     height: 50vh;
     font-size: 15px;
 }
@@ -26,7 +26,7 @@
 
 .name{
     font-size: 60px;
-    background: -webkit-linear-gradient(#ca0603, #ffffff);
+    background: -webkit-linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

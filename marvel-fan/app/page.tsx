@@ -17,24 +17,18 @@ export default function Home() {
 
   return (
     <>
-      <div>
-      </div>
       <div className={styles.container1}>
-        <div className={styles.image1}>
-          <Image
-            src={image}
-            alt={""}
-            className={styles.imagePic} />
-        </div>
+
         <div className={styles.apresentation}>
+            <h2 className={styles.name}>Bruno Henrique - Soluções em Tecnologia</h2>
+            <p className={styles.subTitle}>Analista de Sistemas Pleno, apaixonado por tecnologia e inovação. Desenvolvo soluções eficientes para otimizar processos e melhorar a experiência do usuário.</p>
+        </div>
+
           <Image
             src={avatar}
             alt={""}
             className={styles.avatarPic} />
-          <h2 className={styles.name}>Bruno Henrique</h2>
-          <p className={styles.subTitle}>Analista de Sistemas - Pleno</p>
-        </div>
-
+            
       </div>
 
       <div className={styles.container2}>
@@ -42,10 +36,6 @@ export default function Home() {
       </div>
       <div className={styles.techList}>
         <TechList />
-      </div>
-
-      <div className={styles.container4}>
-        <Skills/>
       </div>
 
       <footer className={styles.footer}>

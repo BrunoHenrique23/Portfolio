@@ -1,6 +1,6 @@
 .container1{
     display: flex;
-    min-height: 30vh;
+    min-height: 100vh;
     padding-bottom: 20vh;
     justify-content: center;
     min-width: 50vh;
@@ -8,22 +8,33 @@
     align-items: center;
 }
 
-.apresentation{
+.title{
     display: flex;
     flex-direction: column;
-    width: 30vh;
+    width: 120vh;
+    height: 50vh;
+    font-size: 15px;
+}
+
+.apresentation{
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10;
-
+    justify-content: space-between;
 }
 
 .name{
-    font-size: 20px;
+    font-size: 60px;
     background: -webkit-linear-gradient(#ca0603, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.subTitle{
+
+}
+
 .image1{
     overflow: hidden;
     border-bottom-right-radius: 30px;

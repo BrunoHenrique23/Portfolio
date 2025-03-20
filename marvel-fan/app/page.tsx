@@ -20,15 +20,18 @@ export default function Home() {
       <div className={styles.container1}>
 
         <div className={styles.apresentation}>
-            <h2 className={styles.name}>Bruno Henrique - Soluções em Tecnologia</h2>
-            <p className={styles.subTitle}>Analista de Sistemas Pleno, apaixonado por tecnologia e inovação. Desenvolvo soluções eficientes para otimizar processos e melhorar a experiência do usuário.</p>
-        </div>
-
+          <div className={styles.title}>
+          <h2 className={styles.name}>Bruno Henrique - Soluções em Tecnologia</h2>
+          <p className={styles.subTitle}>Analista de Sistemas Pleno, apaixonado por tecnologia e inovação. Desenvolvo soluções eficientes para otimizar processos e melhorar a experiência do usuário.</p>
+          </div>
           <Image
             src={avatar}
             alt={""}
             className={styles.avatarPic} />
-            
+        </div>
+
+
+
       </div>
 
       <div className={styles.container2}>

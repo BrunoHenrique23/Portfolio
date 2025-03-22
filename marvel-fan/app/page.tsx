@@ -1,14 +1,28 @@
+'use client'
 import TechList from "@/components/tech-list/tech-list";
 import Image from "next/image";
 import avatar from "../public/images/avatar.jpeg";
 import styles from "./page.module.css";
 import email from "../public/images/email.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React from "react";
+
+
+
 
 export default function Home() {
 
+  React.useEffect(() => {
+    AOS.init({
+      duration: 2000,
+      once: false,
+    })
+  }, [])
+
 
   return (
-    <div className={styles.master}>
+    <div data-aos="fade-up" className={styles.master}>
       <div className={styles.container1}>
         <div className={styles.homeBar}>
           <h1> <a className={styles.logo} href="#">Dev Portfolio</a></h1>
@@ -28,19 +42,28 @@ export default function Home() {
             <p className={styles.subTitle}>
               Hi! I'm Bruno Henrique, a Systems Analyst. I develop efficient technological solutions to make systems smarter and more agile.
             </p>
-            <button className={styles.buttonCv}>Download CV</button>
+            <button className={styles.coolBeans}>Download CV</button>
           </div>
-          <Image src={avatar} alt={""} className={styles.avatarPic} />
+          <div>
+            <Image src={avatar} alt={""} className={styles.avatarPic} />
+          </div>
         </div>
 
       </div>
 
       <div className={styles.container2}>
-        <h1>Technologies</h1>
+        <div className={styles.techTitle}>
+          <h2 className={styles.tech}>Technologies</h2>
+          <h1 className={styles.techSubtitle}>
+            Languages that solves problems, one product at a time.
+          </h1>
+        </div>
+        <div className={styles.techList}>
+          <TechList />
+        </div>
       </div>
-      <div className={styles.techList}>
-        <TechList />
-      </div>
+
+
 
       <footer className={styles.footer}>
 

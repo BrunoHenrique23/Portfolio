@@ -6,6 +6,7 @@ import nextjs from "../public/images/nextjs.png"
 import swift from "../public/images/swift.png"
 import atos from "../public/images/atos-logo-0.png"
 import fiap from "../public/images/fiap.jpg"
+import { title } from "process"
 
 
 
@@ -61,3 +62,26 @@ export const graduation = [
         link: "https://atos.net/en/"
     }
 ]
+
+
+export const techList = [
+    {
+      id: 1,
+      title: "What I can do for you",
+      description: "Faster, better products that your users love. Here's all the services I provide:",
+      items: ["Design Strategy", "Web and Mobile App Design", "Front-end Development"]
+    },
+    {
+      id: 2,
+      title: "Applications I'm fluent in",
+      description: "Every developer needs the right tools to do the perfect job. Thankfully, I'm multilingual.",
+      items: ["Java Spring Boot", "Next Js", "Figma"]
+    },
+    {
+      id: 3,
+      title: "What you can expect",
+      description: "I design products that are more than pretty. I make them shippable and usable.",
+      items: ["Clean and functional", "Device and user friendly", "Efficient and maintainable"]
+    }
+  ];
+  

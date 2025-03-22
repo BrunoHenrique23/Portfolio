@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { graduation, icons } from "./tech-list-icons";
+import { graduation, icons } from "../../constants/tech-list-icons";
 import styles from "./tech-list.module.css";
 import React from "react";
 

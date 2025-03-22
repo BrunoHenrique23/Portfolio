@@ -3,7 +3,7 @@
 import React from "react"
 import styles from "./contact-list.module.css"
 import Image from "next/image";
-import { contact } from "../tech-list/tech-list-icons";
+import { contact } from "../../constants/tech-list-icons";
 import { useRouter } from 'next/navigation'
 
 

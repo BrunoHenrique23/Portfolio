@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./project-list.module.css"
 import Image from "next/image";
-import { projects } from "../tech-list/tech-list-icons";
+import { projects } from "../../constants/tech-list-icons";
 
 
 export default function ProjectList (){

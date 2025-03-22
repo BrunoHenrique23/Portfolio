@@ -16,21 +16,23 @@ export default function Home() {
             <ul className={styles.itensNav}>
               <li><a className={styles.item} href="#about">About</a></li>
               <li><a className={styles.item} href="#projects">Projects</a> </li>
-              <li><a  className={styles.item}href="#contact">Contact <Image className={styles.emailIcon} src={email} alt={""} /></a></li>
+              <li><a className={styles.item} href="#contact">Contact <Image className={styles.emailIcon} src={email} alt={""} /></a></li>
             </ul>
           </nav>
         </div>
         <div className={styles.apresentation}>
           <div className={styles.title}>
-            <h2 className={styles.name}>I develop solutions
-              that optimize processes and drive businesses forward.</h2>
-            <p className={styles.subTitle}>Hi! I'm Bruno Henrique, a Systems Analyst. I develop efficient technological solutions to make systems smarter and more agile.</p>
+            <h2 className={styles.name}>
+              I develop solutions that optimize processes and drive businesses forward.
+            </h2>
+            <p className={styles.subTitle}>
+              Hi! I'm Bruno Henrique, a Systems Analyst. I develop efficient technological solutions to make systems smarter and more agile.
+            </p>
+            <button className={styles.buttonCv}>Download CV</button>
           </div>
-          <Image
-            src={avatar}
-            alt={""}
-            className={styles.avatarPic} />
+          <Image src={avatar} alt={""} className={styles.avatarPic} />
         </div>
+
       </div>
 
       <div className={styles.container2}>

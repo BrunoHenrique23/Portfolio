@@ -3,22 +3,14 @@ import styles from "./project-list.module.css"
 import Image from "next/image";
 
 
-export default function ProjectList (){
+export default function ProjectList() {
 
-    return(
-        <>
-    <div className={styles.container}>
-  {/* {projects.map((item, index) => (
-    <div 
-      key={item.id} 
-      className={`${styles.iconWrapper} ${index % 2 === 0 ? styles.left : styles.right}`}
-    >
-      <Image src={item.img} alt={item.title} className={styles.techIcons} />
-      <p className={styles.iconTitle}>{item.title}</p>
-    </div>
-  ))} */}
-</div>
+  return (
+    <>
+      <div className={styles.container}>
+        <h1>Projects</h1>
+      </div>
 
-        </>
-    )
+    </>
+  )
 }

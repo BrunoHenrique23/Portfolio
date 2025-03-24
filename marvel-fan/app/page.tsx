@@ -7,6 +7,7 @@ import email from "../public/images/email.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React from "react";
+import ProjectList from "@/components/project-list/project-list";
 
 
 
@@ -64,7 +65,7 @@ export default function Home() {
       </div>
 
       <div className={styles.container3}>
-        <h1>Projects</h1>
+        <ProjectList/>
       </div>
 
 

@@ -88,17 +88,20 @@
 
       .listContainer {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 40px;
+        padding: 50;
       }
       
       .listItem {
         width: 30%;
         text-align: left;
+        margin-bottom: 40px;
+   
       }
       
       .listItem h3 {
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
       }
       
@@ -111,6 +114,7 @@
       .listItem ul {
         list-style: none;
         padding: 0;
+        margin-top: 20px;
       }
       
       .listItem ul li {
@@ -119,6 +123,7 @@
         font-weight: bold;
         position: relative;
         padding-left: 20px;
+        margin-bottom: 10px; 
       }
       
       .listItem ul li::before {
@@ -129,4 +134,16 @@
         left: 0;
         top: 0;
       }
+
+      .titleDesc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10;
+      }
+
+    .imageIcon{
+      display: flex;
+      padding-bottom: 30;
+    }
       

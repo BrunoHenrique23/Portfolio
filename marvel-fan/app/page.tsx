@@ -63,6 +63,10 @@ export default function Home() {
         </div>
       </div>
 
+      <div className={styles.container3}>
+        <h1>Projects</h1>
+      </div>
+
 
 
       <footer className={styles.footer}>

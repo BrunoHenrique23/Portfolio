@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { graduation, icons, techList } from "../../constants/tech-list-icons";
+import { icons, techList } from "../../constants/tech-list-icons";
 import styles from "./tech-list.module.css";
 import React from "react";
 import AOS from 'aos';
@@ -28,7 +28,17 @@ export default function TechList() {
       </div>
       <div className={styles.listContainer}>
         {techList.map((section, index) => (
-          <div key={section.id} className={styles.listItem}>
+          <div data-aos="fade-up" key={section.id} className={styles.listItem}>
+            <div className={styles.imageIcon}>
+              {section.img && (
+                <Image
+                  src={section.img}
+                  key={section.id}
+                  alt={section.title || "Image"}
+                />
+              )}
+            </div>
+
             <h3>{section.title}</h3>
             <p>{section.description}</p>
             <ul>
